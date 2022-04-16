@@ -2,8 +2,6 @@ import { useAppContext } from "../context/state";
 import Link from "next/link";
 import { ethers } from "ethers";
 import Web3Modal from "web3modal";
-// import Authereum from "authereum";
-// import ethProvider from "eth-provider";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
 import { useEffect, useRef } from "react";
@@ -25,15 +23,9 @@ export default function Navbar() {
         infuraId: "434d293815cd474081e89aefc46a5371",
       },
     },
-    // binancechainwallet: {
-    //   package: true
-    // },
-    // authereum: {
-    //   package: Authereum 
-    // },
-    // frame: {
-    //   package: ethProvider 
-    // }
+    binancechainwallet: {
+      package: true
+    }
   };
 
   const {

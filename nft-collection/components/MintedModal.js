@@ -47,7 +47,7 @@ export default function MintedModal(props) {
                 <p>
                   Your{" "}
                   <b>
-                    <i>Cas NFT #{props.description}</i>
+                    <i>Crypto Dev NFT #{props.description}</i>
                   </b>{" "}
                   just minted!
                 </p>
